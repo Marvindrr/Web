@@ -292,3 +292,613 @@ ul {
   opacity: 1;
   transform: translateY(0);
 }
+
+.Projects {
+  position: absolute;
+  z-index: 5;
+  top: 260%;
+  left: 34%;
+  padding: 12px 48px;
+  font-size: 64px;
+  font-weight: 600;
+  white-space: nowrap;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: transparent;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+
+  background: linear-gradient(
+    to right,
+    #9f9f9f 0%,
+    #ffffff 20%,
+    #9f9f9f 40%,
+    #ffffff 60%,
+    #9f9f9f 80%,
+    #ffffff 100%
+  );
+
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 100% center;
+  }
+}
+
+.Projects.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card1 {
+  position: absolute;
+  top: 300%;
+  left: 20%;
+  width: 300px;
+  background: transparent;
+  border: 2px solid #fff;
+  box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.333);
+  border-radius: 10px;
+  padding-bottom: 10px;
+  z-index: 5;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.imge {
+  height: 160px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.imge .Usericon {
+  background-color: #414141;
+  width: 120px;
+  height: 100px;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
+.Description {
+  background: transparent;
+  transform: translate(5px, 10px);
+  width: 90%;
+  height: 190px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #eaeaea;
+  line-height: 1.4;
+  overflow-y: auto;
+  z-index: 5;
+}
+
+.social-media {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #fcfcfc;
+}
+
+.social-media a svg {
+  width: 30px;
+  height: 30px;
+  fill: currentColor;
+}
+
+.card1.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.card2 {
+  position: absolute;
+  top: 0%;
+  left: 210%;
+  width: 300px;
+  background: transparent;
+  border: 2px solid #fff;
+  box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.333);
+  border-radius: 10px;
+  padding-bottom: 10px;
+  z-index: 5;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.imge2 {
+  height: 160px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.imge .Usericon {
+  background-color: #414141;
+  width: 120px;
+  height: 100px;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
+.Description2 {
+  background: transparent;
+  transform: translate(5px, 10px);
+  width: 90%;
+  height: 190px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #eaeaea;
+  line-height: 1.4;
+  overflow-y: auto;
+  z-index: 5;
+}
+
+.social-media2 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.social-media2 a {
+  text-decoration: none;
+  color: #fcfcfc;
+}
+
+.social-media2 a svg {
+  width: 30px;
+  height: 30px;
+  fill: currentColor;
+}
+
+.card2.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.card3 {
+  position: absolute;
+  top: 130%;
+  left: -211%;
+  width: 300px;
+  background: transparent;
+  border: 2px solid #fff;
+  box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.333);
+  border-radius: 10px;
+  padding-bottom: 10px;
+  z-index: 5;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.imge3 {
+  height: 160px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.imge .Usericon {
+  background-color: #414141;
+  width: 120px;
+  height: 100px;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
+.Description3 {
+  background: transparent;
+  transform: translate(5px, 10px);
+  width: 90%;
+  height: 190px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #eaeaea;
+  line-height: 1.4;
+  overflow-y: auto;
+  z-index: 5;
+}
+
+.social-media3 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.social-media3 a {
+  text-decoration: none;
+  color: #fcfcfc;
+}
+
+.social-media3 a svg {
+  width: 30px;
+  height: 30px;
+  fill: currentColor;
+}
+
+.card3.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.card4 {
+  position: absolute;
+  top: 0%;
+  left: 210%;
+  width: 300px;
+  background: transparent;
+  border: 2px solid #fff;
+  box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.333);
+  border-radius: 10px;
+  padding-bottom: 10px;
+  z-index: 5;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.imge4 {
+  height: 160px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.imge .Usericon {
+  background-color: #414141;
+  width: 120px;
+  height: 100px;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
+.Description4 {
+  background: transparent;
+  transform: translate(5px, 10px);
+  width: 90%;
+  height: 190px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #eaeaea;
+  line-height: 1.4;
+  overflow-y: auto;
+  z-index: 5;
+}
+
+.social-media4 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.social-media4 a {
+  text-decoration: none;
+  color: #fcfcfc;
+}
+
+.social-media4 a svg {
+  width: 30px;
+  height: 30px;
+  fill: currentColor;
+}
+
+.card4.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.Habilidades {
+  position: absolute;
+  z-index: 5;
+  top: 150%;
+  left: -129%;
+  padding: 12px 48px;
+  font-size: 64px;
+  font-weight: 600;
+  white-space: nowrap;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: transparent;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+
+  background: linear-gradient(
+    to right,
+    #9f9f9f 0%,
+    #ffffff 20%,
+    #9f9f9f 40%,
+    #ffffff 60%,
+    #9f9f9f 80%,
+    #ffffff 100%
+  );
+
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 100% center;
+  }
+}
+
+.Habilidades.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.cardapp {
+  background: transparent;
+  border: 3px solid #f7df1e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 30px 40px;
+  color: #f7df1e;
+  border-radius: 45px;
+  position: absolute;
+  z-index: 5;
+  top: 220%;
+  left: -300%;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.App-logo {
+  pointer-events: none;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.cardapp.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cardapp2 {
+  background: transparent;
+  border: 3px solid #1e3bf7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 30px 40px;
+  color: #1e3bf7;
+  border-radius: 45px;
+  position: absolute;
+  z-index: 5;
+  top: 220%;
+  left: -100%;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.App-logo2 {
+  pointer-events: none;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.cardapp2.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cardapp3 {
+  background: transparent;
+  border: 3px solid #f7781e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 30px 40px;
+  color: #f7781e;
+  border-radius: 45px;
+  position: absolute;
+  z-index: 5;
+  top: 220%;
+  left: -200%;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.App-logo3 {
+  pointer-events: none;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.cardapp3.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cardapp4 {
+  background: transparent;
+  border: 3px solid #1eecf7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 30px 40px;
+  color: #1eecf7;
+  border-radius: 45px;
+  position: absolute;
+  z-index: 5;
+  top: 220%;
+  left: 0%;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.App-logo4 {
+  pointer-events: none;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.cardapp4.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cardapp5 {
+  background: transparent;
+  border: 3px solid #387EB8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 30px 40px;
+  color: #FFE052;
+  border-radius: 45px;
+  position: absolute;
+  z-index: 5;
+  top: 220%;
+  left: 100%;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.App-logo5 {
+  pointer-events: none;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.cardapp5.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cardapp6 {
+  background: transparent;
+  border: 3px solid #1ef742;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 30px 40px;
+  color: #1ef742;
+  border-radius: 45px;
+  position: absolute;
+  z-index: 5;
+  top: 300%;
+  left: -200%;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.App-logo6 {
+  pointer-events: none;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.cardapp6.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cardapp7 {
+  background: transparent;
+  border: 3px solid #1e6ef7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 30px 40px;
+  color: #1e6ef7;
+  border-radius: 45px;
+  position: absolute;
+  z-index: 5;
+  top: 300%;
+  left: -20%;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.App-logo7 {
+  pointer-events: none;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.cardapp7.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
