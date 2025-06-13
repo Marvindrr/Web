@@ -272,10 +272,45 @@
 </div>
 
 
+<div class="glass-contact-card">
+  <img src="meeft.jpg" alt="Foto de perfil" class="glass-profile-img">
+
+  <h2 class="glass-contact-name">Marvin David Rodríguez Ruiz</h2>
+  <p class="glass-contact-role">Desarrollador Full Stack</p>
+
+  <div class="glass-contact-info">
+    <p><strong>Email:</strong> marvin2kdav13@gmail.com</p>
+    <p><strong>Teléfono:</strong> +52 4495680882</p>
+    <p><strong>Ubicación:</strong> Aguascalientes, Mexico</p>
+  </div>
+
+  <a href="mailto:marvin@example.com"</a>
+</div>
+
+
+
+<h1 class="contacto">Contacto</h1>
+
+<div class="form-container">
+      <form class="form">
+        <div class="form-group">
+          <label for="email">Company Email</label>
+          <input type="text" id="email" name="email" required="">
+        </div>
+        <div class="form-group">
+          <label for="textarea">How Can We Help You?</label>
+          <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
+        </div>
+        <button class="form-submit-btn" type="submit">Submit</button>
+      </form>
+    </div>
+
+    
+    
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    const elements = document.querySelectorAll(".card, .Aboutme, .Projects, .card1, .card2, .card3, .card4, .Habilidades, .cardapp, .cardapp2, .cardapp3, .cardapp4, .cardapp5, .cardapp6, .cardapp7");
+    const elements = document.querySelectorAll(".card, .Aboutme, .Projects, .card1, .card2, .card3, .card4, .Habilidades, .cardapp, .cardapp2, .cardapp3, .cardapp4, .cardapp5, .cardapp6, .cardapp7, .contacto");
 
     const observer = new IntersectionObserver(
       (entries) => {
